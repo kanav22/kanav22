@@ -22,10 +22,20 @@ I operate at the layer where **architecture, reliability, security, and team vel
 | Area | Experience |
 |------|------------|
 | **Domain** | Consumer fintech — payments, banking SDKs, trading mobile |
-| **Scale** | Production apps serving multi-million user bases |
-| **Leadership** | Led mobile delivery, mentoring, and cross-functional release coordination |
-| **Platform** | Established modular architecture, DI, testing, and CI standards across teams |
-| **Open source** | Maintainer of [android-platform-starter](https://github.com/kanav22/android-platform-starter) and 4 CI-backed showcase repos |
+| **Scale** | **500M+** users (Paytm); **1M+** daily transactions (Angel One trading) |
+| **Leadership** | Led teams of **10–25** engineers; mentoring, release coordination, RFC/ADR governance |
+| **Platform** | Monolith-to-multi-module migrations; **40%** faster deploys; **85%** test coverage; **2wk → 2d** release cycles |
+| **Reliability** | **99.99%** platform uptime targets; crash rate **2% → <0.1%** (INDmoney) |
+| **Open source** | Maintainer of **6** CI-backed repos · contributor to **Now in Android** & **SQLDelight** |
+
+---
+
+## Open Source Contributions
+
+| Project | Contribution |
+|---------|--------------|
+| [Now in Android](https://github.com/android/nowinandroid) | [PR #2133](https://github.com/android/nowinandroid/pull/2133) — SyncInitializer comment fix |
+| [SQLDelight](https://github.com/sqldelight/sqldelight) | [PR #6287](https://github.com/sqldelight/sqldelight/pull/6287) — docs clarity & JavaScript spelling |
 
 ---
 
@@ -46,7 +56,7 @@ I operate at the layer where **architecture, reliability, security, and team vel
 
 | Repository | Signal |
 |------------|--------|
-| [**android-platform-starter**](https://github.com/kanav22/android-platform-starter) | Platform template · Hilt · Detekt · Macrobenchmark · CI |
+| [**android-platform-starter**](https://github.com/kanav22/android-platform-starter) | Platform template · ADRs · Hilt · Detekt · Macrobenchmark · CI |
 | [**sliide-kmp-user-management**](https://github.com/kanav22/sliide-kmp-user-management) | KMP · MVI · SQLDelight · Ktor · offline-first |
 | [**compose-commerce-catalog**](https://github.com/kanav22/compose-commerce-catalog) | Compose · Paparazzi golden tests · Hilt |
 | [**compose-movies-finder**](https://github.com/kanav22/compose-movies-finder) | Multi-module TMDB · pagination · `dev.kanav.movies` |
@@ -59,9 +69,11 @@ I operate at the layer where **architecture, reliability, security, and team vel
 
 | Type | Title | Link |
 |------|-------|------|
-| **Architecture article** | MVI, Offline-First, and KMP: Architecture Decisions That Survive Production | [Read on GitHub](https://github.com/kanav22/sliide-kmp-user-management/blob/main/docs/architecture/kmp-mvi-offline-first.md) |
-| **Talk proposals** | MVI at Scale · Offline-First in Fintech · Platform Team Bootstrapping | [Speaking deck](https://github.com/kanav22/kanav22/blob/main/docs/SPEAKING.md) |
-| **Open source** | Maintainer — android-platform-starter | [GitHub](https://github.com/kanav22/android-platform-starter) |
+| **Architecture** | MVI, Offline-First, and KMP: Architecture Decisions That Survive Production | [Read](https://github.com/kanav22/sliide-kmp-user-management/blob/main/docs/architecture/kmp-mvi-offline-first.md) · [Publish copy](https://github.com/kanav22/kanav22/blob/main/docs/publishing/kmp-mvi-offline-first-medium.md) |
+| **Performance** | Performance Budgets with Macrobenchmark and Baseline Profiles | [Read](https://github.com/kanav22/android-platform-starter/blob/main/docs/articles/macrobenchmark-performance-budgets.md) · [Publish copy](https://github.com/kanav22/kanav22/blob/main/docs/publishing/macrobenchmark-performance-budgets-medium.md) |
+| **Talk submissions** | MVI at Scale · Offline-First in Fintech · Platform Team Bootstrapping | [CFP pack](https://github.com/kanav22/kanav22/blob/main/docs/SPEAKING-SUBMISSIONS.md) |
+| **Video script** | android-platform-starter architecture walkthrough (10 min) | [Script](https://github.com/kanav22/kanav22/blob/main/docs/VIDEO-WALKTHROUGH-SCRIPT.md) |
+| **LinkedIn** | Headline, About, posts, recommendation templates | [Copy](https://github.com/kanav22/kanav22/blob/main/docs/LINKEDIN.md) |
 
 ---
 
