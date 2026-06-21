@@ -13,7 +13,19 @@ Mobile platform architecture · Kotlin · Jetpack Compose · KMP · Fintech at s
 
 I design and ship mobile platforms for regulated, high-traffic products — payments, banking SDKs, and trading experiences at **Paytm**, **Weavr**, and **Angel One**.
 
-I operate at the intersection of **architecture, reliability, security, and team velocity**: modular boundaries, testable state machines, offline-first data flows, and CI pipelines that catch regressions before users do.
+I operate at the layer where **architecture, reliability, security, and team velocity** meet: modular boundaries, testable state machines, offline-first data flows, and CI pipelines that catch regressions before users do.
+
+---
+
+## Impact
+
+| Area | Experience |
+|------|------------|
+| **Domain** | Consumer fintech — payments, banking SDKs, trading mobile |
+| **Scale** | Production apps serving multi-million user bases |
+| **Leadership** | Led mobile delivery, mentoring, and cross-functional release coordination |
+| **Platform** | Established modular architecture, DI, testing, and CI standards across teams |
+| **Open source** | Maintainer of [android-platform-starter](https://github.com/kanav22/android-platform-starter) and 4 CI-backed showcase repos |
 
 ---
 
@@ -22,11 +34,11 @@ I operate at the intersection of **architecture, reliability, security, and team
 | Pillar | What I deliver |
 |--------|----------------|
 | **Platform architecture** | Multi-module Android/KMP, unidirectional data flow, clear domain contracts |
-| **Compose UI systems** | Design-system thinking, performance-aware rendering, scalable feature modules |
-| **Quality engineering** | Unit/integration/UI/golden tests, Detekt, GitHub Actions on every PR |
+| **Compose UI systems** | Design-system thinking, performance-aware rendering, golden testing |
+| **Quality engineering** | Unit/integration/UI tests, Detekt, Macrobenchmark, GitHub Actions |
 | **Offline & data** | SQLDelight/Room, cache-first UX, resilient sync boundaries |
-| **Mobile ↔ backend** | API contracts, auth, observability, release coordination |
-| **Technical leadership** | Standards, reviews, mentoring, raising engineering bar across teams |
+| **On-device AI** | Pluggable inference boundaries for Gemini Nano / ML Kit integration |
+| **Technical leadership** | Standards, reviews, mentoring, raising engineering bar |
 
 ---
 
@@ -34,30 +46,12 @@ I operate at the intersection of **architecture, reliability, security, and team
 
 | Repository | Signal |
 |------------|--------|
-| [**android-platform-starter**](https://github.com/kanav22/android-platform-starter) | Production template · modular Compose · Hilt · Detekt · CI quality gates |
-| [**sliide-kmp-user-management**](https://github.com/kanav22/sliide-kmp-user-management) | KMP · Compose Multiplatform · MVI · SQLDelight · Ktor · offline-first |
-| [**compose-commerce-catalog**](https://github.com/kanav22/compose-commerce-catalog) | Compose · Hilt · Paparazzi golden tests · modular data layer |
-| [**compose-movies-finder**](https://github.com/kanav22/compose-movies-finder) | Multi-module TMDB client · Flow · pagination · filters · CI |
-
-All showcase repos ship with **MIT license**, **CI badges**, and **contribution guides**.
-
----
-
-## Stack
-
-**Languages:** Kotlin · Java · TypeScript (RN) · Swift (iOS exposure)  
-**Android:** Compose · Coroutines/Flow · Hilt · Room/SQLDelight · Retrofit/Ktor · Paging  
-**Platform:** KMP · Gradle · GitHub Actions · Detekt · Fastlane  
-**Domains:** Fintech · Payments · SDK design · High-availability consumer mobile
-
----
-
-## Leadership & Impact
-
-- Led mobile engineering delivery for consumer fintech products used at scale
-- Established modular architecture, DI, and testable ViewModel/MVI patterns across teams
-- Partnered with backend, security, and compliance on production release pipelines
-- Mentored engineers across Android and cross-platform stacks
+| [**android-platform-starter**](https://github.com/kanav22/android-platform-starter) | Platform template · Hilt · Detekt · Macrobenchmark · CI |
+| [**sliide-kmp-user-management**](https://github.com/kanav22/sliide-kmp-user-management) | KMP · MVI · SQLDelight · Ktor · offline-first |
+| [**compose-commerce-catalog**](https://github.com/kanav22/compose-commerce-catalog) | Compose · Paparazzi golden tests · Hilt |
+| [**compose-movies-finder**](https://github.com/kanav22/compose-movies-finder) | Multi-module TMDB · pagination · `dev.kanav.movies` |
+| [**ai-on-device-android**](https://github.com/kanav22/ai-on-device-android) | On-device AI architecture · pluggable inference boundary |
+| [**compose-golden-toolkit**](https://github.com/kanav22/compose-golden-toolkit) | Paparazzi golden testing patterns for Compose |
 
 ---
 
@@ -65,9 +59,15 @@ All showcase repos ship with **MIT license**, **CI badges**, and **contribution 
 
 | Type | Title | Link |
 |------|-------|------|
-| Blog | _[Add your first architecture post]_ | _[URL]_ |
-| Talk | _[Add conference/meetup talk]_ | _[URL]_ |
-| Open source | Maintainer of [android-platform-starter](https://github.com/kanav22/android-platform-starter) | GitHub |
+| **Architecture article** | MVI, Offline-First, and KMP: Architecture Decisions That Survive Production | [Read on GitHub](https://github.com/kanav22/sliide-kmp-user-management/blob/main/docs/architecture/kmp-mvi-offline-first.md) |
+| **Talk proposals** | MVI at Scale · Offline-First in Fintech · Platform Team Bootstrapping | [Speaking deck](https://github.com/kanav22/kanav22/blob/main/docs/SPEAKING.md) |
+| **Open source** | Maintainer — android-platform-starter | [GitHub](https://github.com/kanav22/android-platform-starter) |
+
+---
+
+## Stack
+
+Kotlin · Jetpack Compose · KMP · Coroutines/Flow · Hilt · SQLDelight · Retrofit/Ktor · Paging · Detekt · Macrobenchmark · GitHub Actions
 
 ---
 
