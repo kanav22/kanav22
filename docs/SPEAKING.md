@@ -42,6 +42,8 @@ Conference and meetup submissions aligned with my platform engineering work.
 - Android Makers
 - Mobile @ Scale meetups (London)
 
+**Ready-to-submit abstracts:** [SPEAKING-SUBMISSIONS.md](SPEAKING-SUBMISSIONS.md)
+
 ## Contact for speaking
 
 **Email:** kanav.wadhawan@gmail.com  
