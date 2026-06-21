@@ -36,7 +36,7 @@ I care about systems that survive production: modular boundaries, testable state
 |---------|------------|
 | [**sliide-kmp-user-management**](https://github.com/kanav22/sliide-kmp-user-management) | Kotlin Multiplatform · Compose Multiplatform · MVI · Ktor · SQLDelight · GitHub Actions CI |
 | [**gym_project**](https://github.com/kanav22/gym_project) | Compose · Hilt · golden/UI tests · modular data layer |
-| [**MoviesFinderApp-main**](https://github.com/kanav22/MoviesFinderApp-main) | Paging 3 · Flow · Navigation · TMDB integration |
+| [**compose-movies-finder**](https://github.com/kanav22/compose-movies-finder) | Multi-module Compose · Flow · Pagination · TMDB · CI |
 
 ---
 
