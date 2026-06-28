@@ -18,7 +18,7 @@ Mobile platform architecture · Kotlin · Jetpack Compose · KMP · Fintech at s
 | Repository | What it demonstrates |
 |------------|----------------------|
 | [**android-platform-starter**](https://github.com/kanav22/android-platform-starter) | Production Android platform template — ADRs, Hilt, Detekt, Macrobenchmark, CI |
-| [**sliide-kmp-user-management**](https://github.com/kanav22/sliide-kmp-user-management) | KMP · MVI · SQLDelight · Ktor · offline-first user management |
+| [**kmp-user-management**](https://github.com/kanav22/kmp-user-management) | KMP · MVI · SQLDelight · Ktor · offline-first user management |
 | [**compose-commerce-catalog**](https://github.com/kanav22/compose-commerce-catalog) | Compose · Paparazzi golden tests · Hilt · e-commerce catalog |
 | [**compose-movies-finder**](https://github.com/kanav22/compose-movies-finder) | Multi-module TMDB app · pagination · filters · CI |
 | [**ai-on-device-android**](https://github.com/kanav22/ai-on-device-android) | On-device AI · pluggable inference boundary · Gemini Nano / ML Kit |
@@ -29,7 +29,7 @@ Mobile platform architecture · Kotlin · Jetpack Compose · KMP · Fintech at s
 ## Currently building
 
 - **android-platform-starter** — production-grade Android platform template with CI quality gates
-- **sliide-kmp-user-management** — offline-first KMP reference app with MVI and SQLDelight
+- **kmp-user-management** — offline-first KMP reference app with MVI and SQLDelight
 - Open source contributions to [**Now in Android**](https://github.com/android/nowinandroid) and [**SQLDelight**](https://github.com/sqldelight/sqldelight)
 
 ---
@@ -38,7 +38,7 @@ Mobile platform architecture · Kotlin · Jetpack Compose · KMP · Fintech at s
 
 | Topic | Link |
 |-------|------|
-| MVI, Offline-First, and KMP | [Architecture doc](https://github.com/kanav22/sliide-kmp-user-management/blob/main/docs/architecture/kmp-mvi-offline-first.md) |
+| MVI, Offline-First, and KMP | [Architecture doc](https://github.com/kanav22/kmp-user-management/blob/main/docs/architecture/kmp-mvi-offline-first.md) |
 | Performance Budgets with Macrobenchmark | [Article](https://github.com/kanav22/android-platform-starter/blob/main/docs/articles/macrobenchmark-performance-budgets.md) |
 
 ---
@@ -112,7 +112,7 @@ I operate at the layer where **architecture, reliability, security, and team vel
 
 | Type | Title | Link |
 |------|-------|------|
-| **Architecture** | MVI, Offline-First, and KMP: Architecture Decisions That Survive Production | [Read](https://github.com/kanav22/sliide-kmp-user-management/blob/main/docs/architecture/kmp-mvi-offline-first.md) · [Medium draft](https://github.com/kanav22/kanav22/blob/main/docs/publishing/kmp-mvi-offline-first-medium.md) |
+| **Architecture** | MVI, Offline-First, and KMP: Architecture Decisions That Survive Production | [Read](https://github.com/kanav22/kmp-user-management/blob/main/docs/architecture/kmp-mvi-offline-first.md) · [Medium draft](https://github.com/kanav22/kanav22/blob/main/docs/publishing/kmp-mvi-offline-first-medium.md) |
 | **Performance** | Performance Budgets with Macrobenchmark and Baseline Profiles | [Read](https://github.com/kanav22/android-platform-starter/blob/main/docs/articles/macrobenchmark-performance-budgets.md) · [Medium draft](https://github.com/kanav22/kanav22/blob/main/docs/publishing/macrobenchmark-performance-budgets-medium.md) |
 | **Talk submissions** | MVI at Scale · Offline-First in Fintech · Platform Team Bootstrapping | [CFP pack](https://github.com/kanav22/kanav22/blob/main/docs/SPEAKING-SUBMISSIONS.md) |
 | **Video script** | android-platform-starter architecture walkthrough (10 min) | [Script](https://github.com/kanav22/kanav22/blob/main/docs/VIDEO-WALKTHROUGH-SCRIPT.md) |
