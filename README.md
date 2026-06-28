@@ -65,7 +65,7 @@ Kotlin · Jetpack Compose · KMP · Coroutines/Flow · Hilt · SQLDelight · Ret
 <details>
 <summary><strong>Executive summary</strong></summary>
 
-I operate at the layer where **architecture, reliability, security, and team velocity** meet:677: modular boundaries, testable state machines, offline-first data flows, and CI pipelines that catch regressions before users do.
+I operate at the layer where **architecture, reliability, security, and team velocity** meet: modular boundaries, testable state machines, offline-first data flows, and CI pipelines that catch regressions before users do.
 
 </details>
 
